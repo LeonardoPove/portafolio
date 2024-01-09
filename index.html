@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- ///////////////////////swiper css////////////// -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav_logo">Lespodev</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#inicio" class="nav_link active-link">
+                            <i class="ri-home-4-line nav_icon"></i>Inicio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#sobremi" class="nav_link ">
+                            <i class="ri-user-line nav_icon"></i>Sobre mi
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#experiencia" class="nav_link">
+                            <i class="ri-line-chart-line nav_icon"></i>Experiencia
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#habilidades" class="nav_link">
+                            <i class="ri-file-list-3-line nav_icon"></i>Habilidades
+
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portafolio" class="nav_link">
+                            <i class="ri-briefcase-2-line nav_icon"></i>Portafolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contacto" class="nav_link">
+                            <i class="ri-send-plane-fill nav_icon"></i>Contacto
+                        </a>
+                    </li>
+                </ul>
+                <i class="ri-close-line nav_close" id="nav-close"></i>
+            </div>
+
+            <div class="nav_btns">
+                <!-- ////////////////////thema negro///////////// -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="ri-apps-line "></i>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- /////////////////////////////////////////////////////////////// -->
+
+    <main class="main">
+        <!-- ////////////////////////////////////////////////////Inicio///////////////////////////////////////////// -->
+
+        <section class="inicio section" id="inicio">
+            <div class="inicio__container container grid">
+                <div class="inicio__content grid">
+                    <div class="inicio__social">
+                        <a href="" class="home__social-icon">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+
+                        <a href="" class="home__social-icon">
+                            <i class="ri-github-fill"></i>
+                        </a>
+
+
+                    </div>
+                    <div class="inicio__img">
+                        <svg class="inicio_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0" mask-type="alpha">
+                                <path
+                                    d="M41.9,-47.8C55.6,-38.5,68.9,-26.5,71.1,-12.7C73.4,1.1,64.6,16.7,54.6,29C44.5,41.3,33.1,50.4,18.7,59C4.3,67.5,-13.1,75.6,-28.8,72.7C-44.4,69.7,-58.4,55.8,-67,39.4C-75.6,23.1,-78.8,4.3,-76.7,-14.6C-74.6,-33.5,-67.3,-52.5,-53.7,-61.8C-40,-71.1,-20,-70.7,-2.9,-67.2C14.1,-63.7,28.2,-57.1,41.9,-47.8Z"
+                                    transform="translate(100 100)" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path
+                                    d="M41.9,-47.8C55.6,-38.5,68.9,-26.5,71.1,-12.7C73.4,1.1,64.6,16.7,54.6,29C44.5,41.3,33.1,50.4,18.7,59C4.3,67.5,-13.1,75.6,-28.8,72.7C-44.4,69.7,-58.4,55.8,-67,39.4C-75.6,23.1,-78.8,4.3,-76.7,-14.6C-74.6,-33.5,-67.3,-52.5,-53.7,-61.8C-40,-71.1,-20,-70.7,-2.9,-67.2C14.1,-63.7,28.2,-57.1,41.9,-47.8Z"
+                                    transform="translate(100 100)" />
+                                <image class="inicio__blob-img" x='25' y='48' xlink:href="img/leonardo1.png">
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="inicio__data">
+                        <h1 class="inicio__title">Hola, soy Leonardo </h1>
+                        <div class="text-animate">
+                            <h2> FullStack Developer</h2>
+                        </div>
+                        <!-- <h3 class="inicio__subtitle">FullStack Developer</h3> -->
+                        <p class="inicio__description">Poseo habilidades full-stack; he trabajado en proyectos tanto en
+                            el
+                            Frontend como en el Backend y en procesos de QA Analyst. Además, tengo habilidades
+                            intermedias en inglés y una sólida base en programación.</p>
+                        <a href="#contacto" class="button button--flex">
+                            Contactame <i class="ri-chat-smile-2-line button--icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="inicio__scroll">
+                    <a href="#sobremi" class="inicio__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt inicio__scroll-mouse"></i>
+                        <span class="inicio__scroll-name">Baja</span>
+                        <i class="uil uil-arrow-down inicio__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- //////////////////////////////////////////////////////////////////SOBRE MI //////////////////////////////////////////////// -->
+        <section class="sobremi section" id="sobremi">
+            <div class="text-animate2">
+                <h2>Acerca de mi</h2>
+            </div>
+            <!-- <h2 class="section__title">Sobre Mi</h2> -->
+            <span class="section__subtitle">Mi introducción.</span>
+
+            <div class="sobremi__container container grid">
+                <img src="img/leonardo-camisa-blanca.jpg" alt="" class="sobremi__img">
+                <div class="sobremi__data">
+                    <p class="sobremi__description">Me destaco por mi capacidad de liderazgo.
+                        Proactividad y energía, lo que me permite establecer relaciones
+                        interpersonales
+                        efectivas y fomentar un óptimo trabajo en equipo. Estoy siempre
+                        dispuesto
+                        a asumir nuevos desafíos con transparencia y honestidad.
+
+                    </p>
+
+                    <div class="sobremi__info">
+                        <div>
+                            <span class="sobremi__info-title">2+</span>
+                            <span class="sobremi__info-name">Años de <br> Experiencia</span>
+                        </div>
+                        <div>
+                            <span class="sobremi__info-title">1+</span>
+                            <span class="sobremi__info-name">Proyectos <br> Completos</span>
+                        </div>
+                        <div>
+                            <span class="sobremi__info-title">1+</span>
+                            <span class="sobremi__info-name">Experiencia <br> Laboral</span>
+                        </div>
+                    </div>
+
+                    <div class="sobremi__buttons">
+                        <a download="" href="img/Leonardo Poveda Hoja de vida.pdf" class="button button--flex">
+                            Descargar CV <i class="uil uil-arrow-down inicio__scroll-arrow"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- /////////////////////////////////////////////////Experiencia///////////////////////////////////////////// -->
+
+        <section class="experiencia section" id="experiencia">
+            <div class="text-animate2">
+                <h2>Experiencia</h2>
+            </div>
+            <!-- <h2 class="section__title">Esperiencia</h2> -->
+            <span class="section__subtitle">Mi Presentación </span>
+
+            <div class="experiencia__container container">
+                <div class="experiencia__tabs">
+                    <div class="experiencia__button button--flex experiencia__active" data-target='#educacion'>
+                        <i class="uil uil-graduation-cap experiencia__icon"></i>Educación
+                    </div>
+                    <div class="experiencia__button button--flex " data-target='#experiencias'>
+                        <i class="uil uil-graduation-cap experiencia__icon"></i>Trabajo
+                    </div>
+                </div>
+
+                <div class="experiencia__sections">
+
+                    <!-- ///////////////////////Educacion contenido 1////////////////////////////////////// -->
+                    <div class="experiencia__content experiencia__active" data-content id="educacion">
+                        <!-- //////////////////////////Educacion 1 ////////////////////////////////////////////////////// -->
+                        <div class="experiencia__data">
+                            <div>
+                                <h3 class="experiencia_tittle">Bachillerato </h3>
+                                <span class="experiencia__subtitle">Jorge Eliecer Gaitan<br>Colombia <img class="img-1"
+                                        src="https://cdn-icons-png.flaticon.com/512/330/330508.png" alt=""></span>
+                                <div class="experiencia__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019 Finalizado
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="experiencia__rounder"></span>
+                                <span class="experiencia__line"></span>
+                            </div>
+
+                        </div>
+
+                        <!-- //////////////////////////Educacion 2 ////////////////////////////////////////////////////// -->
+                        <div class="experiencia__data">
+
+                            <div></div>
+
+                            <div>
+                                <span class="experiencia__rounder"></span>
+                                <span class="experiencia__line"></span>
+                            </div>
+
+                            <div class="endtext">
+                                <h3 class="experiencia_tittle">Analisis y Desarrollo De Sistemas De Informacion </h3>
+                                <span class="experiencia__subtitle">Sena - Tecnologo <br>Colombia <img class="img-1"
+                                        src="https://cdn-icons-png.flaticon.com/512/330/330508.png" alt=""></span>
+                                <div class="experiencia__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2023 Finalizado
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //////////////////////////Educacion 3 ////////////////////////////////////////////////////// -->
+                        <div class="experiencia__data">
+                            <div>
+                                <h3 class="experiencia_tittle">Ingenieria de Sistemas</h3>
+                                <span class="experiencia__subtitle">UNAD <br>Colombia <img class="img-1"
+                                        src="https://cdn-icons-png.flaticon.com/512/330/330508.png" alt=""></span>
+                                <div class="experiencia__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019/Actualmente 7º
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="experiencia__rounder"></span>
+                                <span class="experiencia__line"></span>
+                            </div>
+
+                        </div>
+
+
+                        <!-- //////////////////////////Educacion 4 ////////////////////////////////////////////////////// -->
+                        <div class="experiencia__data">
+
+                            <div></div>
+
+                            <div>
+                                <span class="experiencia__rounder"></span>
+                                <span class="experiencia__line"></span>
+                            </div>
+
+                            <div class="endtext">
+                                <h3 class="experiencia_tittle">Lenguaje JavaScript</h3>
+                                <span class="experiencia__subtitle">Generacion MinTic<br>Colombia <img class="img-1"
+                                        src="https://cdn-icons-png.flaticon.com/512/330/330508.png" alt=""></span>
+                                <div class="experiencia__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2023/Actualmente
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- ///////////////////////Experiencia contenido 2////////////////////////////////////// -->
+                    <div class="experiencia__content " data-content id="experiencias">
+                        <!-- //////////////////////////Experiencia 2 ////////////////////////////////////////////////////// -->
+                        <div class="experiencia__data">
+                            <div>
+                                <h3 class="experiencia_tittle">Auxiliar Frontend</h3>
+                                <span class="experiencia__subtitle">Lineru - Tangelo<br>Colombia <img class="img-1"
+                                        src="https://cdn-icons-png.flaticon.com/512/330/330508.png" alt=""></span>
+                                <div class="experiencia__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2022/2023 Finalizado
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="experiencia__rounder"></span>
+                                <span class="experiencia__line"></span>
+                            </div>
+
+                        </div>
+
+
+                        <!-- //////////////////////////Educacion 2 ////////////////////////////////////////////////////// -->
+                        <div class="experiencia__data">
+
+                            <div></div>
+
+                            <div>
+                                <span class="experiencia__rounder"></span>
+                                <span class="experiencia__line"></span>
+                            </div>
+
+                            <div class="endtext">
+                                <h3 class="experiencia_tittle">Auxiliar Qa Analyst</h3>
+                                <span class="experiencia__subtitle">Lineru - Tangelo<br>Colombia <img class="img-1"
+                                        src="https://cdn-icons-png.flaticon.com/512/330/330508.png" alt=""></span>
+                                <div class="experiencia__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2022/2023 Finalizado
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- //////////////////////////Educacion 3 ////////////////////////////////////////////////////// -->
+                        <!-- <div class="experiencia__data">
+                            <div>
+                                <h3 class="experiencia_tittle">Computer Enienner</h3>
+                                <span class="experiencia__subtitle">Colombia - UNAD</span>
+                                <div class="experiencia__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019 - 2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="experiencia__rounder"></span>
+                            </div>
+
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- //////////////////////////////////////////////////////Habilidades////////////////////////////////////////// -->
+
+        <section class="habilidades section" id="habilidades">
+            <div class="text-animate2">
+                <h2>Habilidades</h2>
+            </div>
+            <!-- <h2 class="section__title">Habilidades</h2> -->
+            <span class="section__subtitle">Mis habilidades</span>
+
+            <div class="habilidades__container container grid">
+                <div>
+                    <!-- ////////////////////////////// Habilidad 1 ////////////////////////////////////////////////// -->
+                    <div class="habilidades__content habilidades__open">
+
+                        <div class="habilidades__header">
+                            <i class="bx bx-code-alt habilidades__icon"></i>
+                            <div>
+                                <h1 class="habilidades__title">Desarrollador Frontend</h1>
+                                <span class="habilidades__subtitle">Más de 1 año</span>
+                            </div>
+                            <i class="uil uil-angle-down habilidades__arrow"></i>
+                        </div>
+
+
+                        <div class="habilidades__list grid">
+                            <div class="habilidades__data">
+                                <div class="habilidades__titles">
+                                    <h3 class="habilidades__name">HTML</h3>
+                                    <span class="habilidades__number">38%</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentage habilidades__html"></span>
+                                </div>
+                            </div>
+                            <div class="habilidades__data">
+                                <div class="habilidades__titles">
+                                    <h3 class="habilidades__name">CSS</h3>
+                                    <span class="habilidades__number">38%</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentage habilidades__css"></span>
+                                </div>
+                            </div>
+                            <div class="habilidades__data">
+                                <div class="habilidades__titles">
+                                    <h3 class="habilidades__name">JavaScript</h3>
+                                    <span class="habilidades__number">30%</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentage habilidades__js"></span>
+                                </div>
+                            </div>
+                            <div class="habilidades__data">
+                                <div class="habilidades__titles">
+                                    <h3 class="habilidades__name">TypeScript</h3>
+                                    <span class="habilidades__number">30%</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentage habilidades__ty"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ////////////////////////////// Habilidad 2 ////////////////////////////////////////////////// -->
+                    <div class="habilidades__content habilidades__close">
+                        <div class="habilidades__header">
+                            <i class="uil uil-brackets-curly habilidades__icon"></i>
+                            <div>
+                                <h1 class="habilidades__title">Backend Developer</h1>
+                                <span class="habilidades__subtitle">Más de 1 año</span>
+                            </div>
+                            <i class="uil uil-angle-down habilidades__arrow"></i>
+                        </div>
+
+                        <div class="habilidades__list grid">
+                            <div class="habilidades__data">
+                                <div class="habilidades__titles">
+                                    <h3 class="habilidades__name">Node.Js</h3>
+                                    <span class="habilidades__number">35%</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentage habilidades__node"></span>
+                                </div>
+                            </div>
+                            <div class="habilidades__data">
+                                <div class="habilidades__titles">
+                                    <h3 class="habilidades__name">MYSQL</h3>
+                                    <span class="habilidades__number">37%</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentage habilidades__mysql"></span>
+                                </div>
+                            </div>
+                            <div class="habilidades__data">
+                                <div class="habilidades__titles">
+                                    <h3 class="habilidades__name">PHP</h3>
+                                    <span class="habilidades__number">18%</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentage habilidades__php"></span>
+                                </div>
+                            </div>
+                            <div class="habilidades__data">
+                                <div class="habilidades__titles">
+                                    <h3 class="habilidades__name">Postman</h3>
+                                    <span class="habilidades__number">28%</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentage habilidades__pos"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                    <!-- ////////////////////////////// Habilidad 3 ////////////////////////////////////////////////// -->
+                    <div class="habilidades__content habilidades__close">
+                        <div class="habilidades__header">
+                            <i class="bx bxl-firebase habilidades__icon"></i>
+                            <div>
+                                <h1 class="habilidades__title">Diseñador</h1>
+                                <span class="habilidades__subtitle">Menos de 1 año</span>
+                            </div>
+                            <i class="uil uil-angle-down habilidades__arrow"></i>
+                        </div>
+
+                        <div class="habilidades__list grid">
+                            <div class="habilidades__data">
+                                <div class="habilidades__titles">
+                                    <h3 class="habilidades__name">Figma</h3>
+                                    <span class="habilidades__number">20%</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentage habilidades__figmas"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- ////////////////////////////// Habilidad 4 ////////////////////////////////////////////////// -->
+                    <div class="habilidades__content habilidades__close">
+                        <div class="habilidades__header">
+                            <i class="uil uil-swatchbook habilidades__icon"></i>
+                            <div>
+                                <h1 class="habilidades__title">Frameworks</h1>
+                                <!-- <span class="habilidades__subtitle"></span> -->
+                            </div>
+                            <i class="uil uil-angle-down habilidades__arrow"></i>
+                        </div>
+
+                        <div class="habilidades__list grid">
+                            <div class="habilidades__data">
+                                <div class="habilidades__titles">
+                                    <h3 class="habilidades__name">Angular</h3>
+                                    <span class="habilidades__number">35%</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentage habilidades__angular"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ///////////////////////////////////////////////////////Portafolio//////////////////////////////////////////////// -->
+
+        <section class="portafolio section" id="portafolio">
+            <div class="portafolio-animate">
+                <div class="text-animate2">
+                    <h2>Portafolio</h2>
+                </div>
+            </div>
+            <!-- <h2 class="section__title">Portafolio</h2> -->
+            <span class="section__subtitle">Mis Proyectos</span>
+
+            <div class="portafolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- ////////////////////////////////////Portafolio 1 //////////////////////////////////// -->
+                    <div class="portafolio__content grid swiper-slide">
+                        <img src="img/calculadoral.png" alt="" class="portafolio__img">
+
+                        <div class="portafolio__data">
+                            <h3 class="portafolio__title">CalcuAdapta</h3>
+                            <p class="portafolio__description">CalcuAdapta es una innovadora herramienta de cálculo.
+                                 Diseñada especialmente para brindar accesibilidad a personas con limitaciones visuales. Esta calculadora inclusiva incorpora un diseño intuitivo y funcionalidades.
+                                 Adaptadas que permiten una interacción fluida a través de comandos de voz y señales
+                                 sonoras. 
+                            </p>
+                            <a href="#" class="button button--flex button--small portafolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ////////////////////////////////////Portafolio 2 //////////////////////////////////// -->
+                    <div class="portafolio__content grid swiper-slide">
+                        <img src="img/telematica 2.jpg" alt="" class="portafolio__img">
+
+                        <div class="portafolio__data">
+                            <h3 class="portafolio__title">Modern Websitie</h3>
+                            <p class="portafolio__description">Website adaptable to all devices, and animader
+                                interaciont</p>
+                            <a href="#" class="button button--flex button--small portafolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ////////////////////////////////////Portafolio 3 //////////////////////////////////// -->
+                    <div class="portafolio__content grid swiper-slide">
+                        <img src="img/telematica 2.jpg" alt="" class="portafolio__img">
+
+                        <div class="portafolio__data">
+                            <h3 class="portafolio__title">Modern Websitie</h3>
+                            <p class="portafolio__description">Website adaptable to all devices, and animader
+                                interaciont</p>
+                            <a href="#" class="button button--flex button--small portafolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portafolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portafolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- ////////////////////////////////////////Project in mind ///////////////////////////////////////////////// -->
+        <!-- 
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Tienes un nuevo proyecto</h2>
+                        <p class="project__descripcion">Contáctame ahora y obtén un 30% de descuento en tu nuevo
+                            proyecto
+                        </p>
+                        <a href="#contacto" class="button button--flex button--white">
+                            Contacta me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="/img/leo2.jpg" alt="" class="project__img">
+                </div>
+            </div>
+        </section> -->
+
+
+        <!-- ////////////////////////////////////Contacto//////////////////////////////////// -->
+
+        <section class="contacto section" id="contacto">
+            <div class="text-animate2">
+                <h2>Contactame</h2>
+            </div>
+            <!-- <h2 class="section__title">Contáctame</h2> -->
+            <span class="section__subtitle">Pongase en contacto</span>
+
+            <div class="contacto__container container grid">
+                <div>
+                    <div class="contacto__informacion">
+                        <i class="uil uil-phone contacto__icon"></i>
+                        <div>
+                            <h3 class="contacto__title">Llamame</h3>
+                            <span class="contacto__subtitle">+57 311-496-3256</span>
+                        </div>
+                    </div>
+                    <div class="contacto__informacion">
+                        <i class="ri-mail-open-line contacto__icon"></i>
+                        <div>
+                            <h3 class="contacto__title">Gmail</h3>
+                            <span class="contacto__subtitle">leonardopoved@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contacto__informacion">
+                        <i class="ri-building-fill contacto__icon"></i>
+                        <div>
+                            <h3 class="contacto__title">Ciudad </h3>
+                            <span class="contacto__subtitle">Bogota-Colombia</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <form id="form" action="" class="contacto__form grid">
+                    <div class="contacto__inputs grid">
+                        <div class="contacto__content">
+                            <label for="name" class="contacto__label">Nombre</label>
+                            <input name="name" required type="text" id="name" class="contacto__input">
+                        </div>
+                        <div class="contacto__content">
+                            <label for="email" class="contacto__label">Gmail</label>
+                            <input name="email" type="email" required id="email" class="contacto__input">
+                        </div>
+                    </div>
+                    <div class="contacto__content">
+                        <label for="empresa" class="contacto__label">Empresa o Proyecto</label>
+                        <input name="empresa" type="text" id="empresa" class="contacto__input">
+                    </div>
+                    <div class="contacto__content">
+                        <label for="message" class="contacto__label">Mensaje</label>
+                        <textarea name="message" id="message" cols="30" rows="2.5" class="contacto__input"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="button button--flex">
+                            Enviar Mensaje
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </button>
+                    </div>
+                </form>
+                <a href="mailto:leonardopoved@gmail.com" id="mail">email</a>
+            </div>
+        </section>
+
+        <!-- //////////////////////////////////////////////////Footer///////////////////////////////////////////// -->
+
+
+        <section class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Leonardo</h1>
+                        <span class="footer__subtitle">Full Stack</span>
+                    </div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#experiencia" class="footer__link">Experiencia</a>
+                        </li>
+                        <li>
+                            <a href="#portafolio" class="footer__link">Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="#contacto" class="footer__link">Contactame</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="#" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer__social">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- /////////////////////////////////////////scroll top////////////////// -->
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+    </main>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
